@@ -6,6 +6,7 @@ target 'barCodeScannerSwift4Demo' do
   use_frameworks!
   pod 'BarcodeScanner'
   pod 'Fabric'
+  pod 'Crashlytics'
   # Pods for barCodeScannerSwift4Demo
 
 end

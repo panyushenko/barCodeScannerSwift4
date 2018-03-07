@@ -101,6 +101,7 @@
 				D0BDD66D204F272C007D3CE8 /* Resources */,
 				37A9EF8DCEA8A950F3B92F38 /* [CP] Embed Pods Frameworks */,
 				72764213ACF407B6C67D46C7 /* [CP] Copy Pods Resources */,
+				D0E2F89B20508B0500C3E09C /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -209,6 +210,19 @@
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
+		};
+		D0E2F89B20508B0500C3E09C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" d32ca388523fcf6e5ac02edd910f1720f5041eca f3a0b06ea614558d4f7568f5e8423f292ad4fc6bdb12337c2a90166d0d1c9063";
 		};
 /* End PBXShellScriptBuildPhase section */
 

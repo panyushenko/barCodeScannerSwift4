@@ -7,17 +7,30 @@
 //
 
 import UIKit
+<<<<<<< HEAD
 import Fabric
 import Crashlytics
+=======
+import AlamofireNetworkActivityIndicator
+>>>>>>> task1
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
+    
+    
     var window: UIWindow?
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+<<<<<<< HEAD
         Fabric.with([Crashlytics.self])
+=======
+        
+        NetworkActivityIndicatorManager.shared.isEnabled = true
+        NetworkActivityIndicatorManager.shared.startDelay = 1.0
+        NetworkActivityIndicatorManager.shared.completionDelay = 0.2
+        
+>>>>>>> task1
         // Override point for customization after application launch.
         return true
     }

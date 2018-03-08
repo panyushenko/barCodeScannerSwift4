@@ -8,6 +8,7 @@
 
 import UIKit
 import BarcodeScanner
+import Crashlytics
 
 class ViewController: UIViewController {
 
@@ -17,7 +18,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
+    
     @IBAction func scanAction(_ sender: Any) {
+        //Crashlytics.sharedInstance().crash()
         let viewController = BarcodeScannerViewController()
         viewController.codeDelegate = self
         

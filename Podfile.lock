@@ -1,0 +1,25 @@
+PODS:
+  - Alamofire (4.6.0)
+  - AlamofireNetworkActivityIndicator (2.2.0):
+    - Alamofire (~> 4.5)
+  - BarcodeScanner (4.1.2)
+  - Crashlytics (3.10.1):
+    - Fabric (~> 1.7.5)
+  - Fabric (1.7.5)
+
+DEPENDENCIES:
+  - AlamofireNetworkActivityIndicator (~> 2.2)
+  - BarcodeScanner
+  - Crashlytics
+  - Fabric
+
+SPEC CHECKSUMS:
+  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
+  AlamofireNetworkActivityIndicator: 81e1630e7cfed22a4e4e82a174c59e651dc4f8ca
+  BarcodeScanner: 2dd7e54fd0c40d006f6a89b8bddd56e73e85c58d
+  Crashlytics: aee1a064cbbf99b32efa3f056a5f458d846bc8ff
+  Fabric: ae7146a5f505ea370a1e44820b4b1dc8890e2890
+
+PODFILE CHECKSUM: 88fa6c4b65679ace3efaaf08c21b1430ee3b4fe8
+
+COCOAPODS: 1.4.0
